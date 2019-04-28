@@ -1,0 +1,68 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X12 P?
+U 1 1 5CC07A01
+P 2850 2250
+F 0 "P?" H 2850 2900 50  0000 C CNN
+F 1 "CONN_02X12" V 2850 2250 50  0000 C CNN
+F 2 "Connectors_JAE:JAE_LY20-24P-2T_2x12x2.00mm_Straight" H 2850 1050 50  0000 C CNN
+F 3 "" H 2850 1050 50  0000 C CNN
+	1    2850 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 3500 1700 0    60   Output ~ 0
+IO0
+Text GLabel 3800 1800 0    60   Output ~ 0
++5V
+Wire Wire Line
+	3550 1800 3100 1800
+Wire Wire Line
+	3300 1700 3100 1700
+Text GLabel 3550 1900 0    60   Output ~ 0
+U0RXD
+Text GLabel 4500 2000 0    60   Output ~ 0
+CMD-M0S1-IO15
+$EndSCHEMATC
