@@ -29,30 +29,41 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:sparkle_pager
-LIBS:sparkle_pager-cache
+LIBS:A7139
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Sparkle Pager TTGO T5 v.2.0"
+Date "2019-05-06"
+Rev "0.1"
+Comp "(C) Andrea Contini 2019"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IGTT_T5_CONN_02X12 P?
-U 1 1 5CC5B80B
-P 2300 2150
-F 0 "P?" H 2300 2800 50  0000 C CNN
-F 1 "IGTT_T5_CONN_02X12" V 2300 2150 50  0000 C CNN
-F 2 "" H 2300 950 50  0000 C CNN
-F 3 "" H 2300 950 50  0000 C CNN
-	1    2300 2150
+L CONN_01X13_TTGO_v2.0 P?
+U 1 1 5CD0A201
+P 2100 2200
+F 0 "P?" H 2100 2900 50  0000 C CNN
+F 1 "CONN_01X13_TTGO_v2.0" V 2200 2200 50  0000 C CNN
+F 2 "" H 2100 2200 50  0000 C CNN
+F 3 "" H 2100 2200 50  0000 C CNN
+	1    2100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X13_TTGO_v2.0_U16 P?
+U 1 1 5CD0A23C
+P 2650 2200
+F 0 "P?" H 2650 2900 50  0000 C CNN
+F 1 "CONN_01X13_TTGO_v2.0_U16" V 2550 2200 50  0000 C CNN
+F 2 "" H 2650 2200 50  0000 C CNN
+F 3 "" H 2650 2200 50  0000 C CNN
+	1    2650 2200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

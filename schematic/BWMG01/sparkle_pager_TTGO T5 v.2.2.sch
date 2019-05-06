@@ -28,41 +28,32 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:sparkle_pager
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Sparkle Amateur Radio Pager"
+Date "2019-05-05"
+Rev "0.1"
+Comp "(C) Andrea Contini 2019"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 7050 6700 0    60   ~ 0
+TTGO T5 v.2.2 board
 $Comp
-L CONN_02X12 P?
-U 1 1 5CC07A01
-P 2850 2250
-F 0 "P?" H 2850 2900 50  0000 C CNN
-F 1 "CONN_02X12" V 2850 2250 50  0000 C CNN
-F 2 "Connectors_JAE:JAE_LY20-24P-2T_2x12x2.00mm_Straight" H 2850 1050 50  0000 C CNN
-F 3 "" H 2850 1050 50  0000 C CNN
-	1    2850 2250
+L IGTT_T5V2.2_CONN_02X12 P?
+U 1 1 5CD09E87
+P 2050 2050
+F 0 "P?" H 2050 2700 50  0000 C CNN
+F 1 "IGTT_T5V2.2_CONN_02X12" V 2050 2050 50  0000 C CNN
+F 2 "" H 2050 850 50  0000 C CNN
+F 3 "" H 2050 850 50  0000 C CNN
+	1    2050 2050
 	1    0    0    -1  
 $EndComp
-Text GLabel 3500 1700 0    60   Output ~ 0
-IO0
-Text GLabel 3800 1800 0    60   Output ~ 0
-+5V
-Wire Wire Line
-	3550 1800 3100 1800
-Wire Wire Line
-	3300 1700 3100 1700
-Text GLabel 3550 1900 0    60   Output ~ 0
-U0RXD
-Text GLabel 4500 2000 0    60   Output ~ 0
-CMD-M0S1-IO15
 $EndSCHEMATC

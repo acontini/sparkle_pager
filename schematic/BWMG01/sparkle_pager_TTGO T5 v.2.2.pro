@@ -1,6 +1,10 @@
-update=Sun 28 Apr 2019 15:06:28 BST
+update=Mon 06 May 2019 21:52:00 BST
 version=1
-last_client=kicad
+last_client=eeschema
+[general]
+version=1
+RootSch=
+BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -25,7 +29,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=../schematic
+LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,6 +60,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=sparkle_pager
-[general]
-version=1
+LibName30=/home/conte/GitProjects/sparkle_pager/schematic/sparkle_pager
