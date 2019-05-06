@@ -1,4 +1,4 @@
-update=Mon 06 May 2019 22:01:48 BST
+update=Mon 06 May 2019 23:09:11 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,6 @@ LibName28=contrib
 LibName29=valves
 LibName30=/home/conte/GitProjects/sparkle_pager/schematic/sparkle_pager
 LibName31=/home/conte/GitProjects/A7139-Breakout/kicad/A7139
+LibName32=Motor
+LibName33=motor_drivers
+LibName34=motors
