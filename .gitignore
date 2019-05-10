@@ -2,4 +2,4 @@
 *.bak
 *.bck
 *.dcm
-
+*-cache.lib
