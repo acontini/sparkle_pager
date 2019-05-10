@@ -1,0 +1,5 @@
+/*Ignore KiCad files with dummy content*\
+*.bak
+*.bck
+*.dcm
+
