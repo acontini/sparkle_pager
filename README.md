@@ -24,6 +24,7 @@ Ham pager development using a daughter board for TTGO T5 v. 2.0 / 2.2.
 | A7139 GIO1          | 19        | TBC       | N/A       |
 | A7139 GIO2          | 22        | TBC       | N/A       |
 | A7139 SDIO          | 27        | TBC       | N/A       |
+| A7139 SCS           | 26        | TBC       | N/A       |
 | A7139 SCK           | 25        | TBC       | N/A       |
 | Motor               | 33        | TBC       | N/A       |
 | Buzzer              | 32        | N/A       | N/A       |
@@ -38,8 +39,6 @@ Ham pager development using a daughter board for TTGO T5 v. 2.0 / 2.2.
 | SPRAM               | N/A       | supported | supported |
 | Support EPaper Size | Full Size | Full Size | Full Size |
 
-
-- 
 ## TTGO T5 Set Up
 
 - For the first time, change the macro definition in `board_def.h` according to the corresponding layout and screen, and change the version to be used to 1.
