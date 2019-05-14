@@ -21,13 +21,13 @@ Ham pager development using a daughter board for TTGO T5 v. 2.0 / 2.2.
 | Button 2            | N/A       | 38        | 38        |
 | Button 3            | N/A       | 39        | 39        |
 | DAC OUT             | N/A       | 25        | N/A       |
-| A7139 GIO1          | 19        | TBC       | N/A       |
-| A7139 GIO2          | 22        | TBC       | N/A       |
+| A7139 GIO1          | 32        | TBC       | N/A       |
+| A7139 GIO2          | 33        | TBC       | N/A       |
 | A7139 SDIO          | 27        | TBC       | N/A       |
 | A7139 SCS           | 26        | TBC       | N/A       |
 | A7139 SCK           | 25        | TBC       | N/A       |
-| Motor               | 33        | TBC       | N/A       |
-| Buzzer              | 32        | N/A       | N/A       |
+| Motor               | 19        | TBC       | N/A       |
+| Buzzer              | 22        | N/A       | N/A       |
 | DS3231 SDA          | N/A       | N/A       | 21        |
 | DS3231 SCL          | N/A       | N/A       | 22        |
 | LORA MOSI           | N/A       | N/A       | 27        |
