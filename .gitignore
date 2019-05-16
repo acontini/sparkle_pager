@@ -3,3 +3,7 @@
 *.bck
 *.dcm
 *-cache.lib
+
+/*Ignore local examples *\
+
+software/sparkle_pager/examples
